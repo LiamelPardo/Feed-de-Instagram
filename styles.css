@@ -1,0 +1,60 @@
+body {
+    background: gray;
+    margin: 0;
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+div.post {
+    position: absolute;
+    margin-top: 10px;
+    
+}
+* img {
+    width: 100%;
+}
+
+div.post .post-header div:first-child {
+    display: flex;
+    display: inline-block;
+    width: 80%;
+}
+
+div.post div:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.post h2 div.post p {
+    padding: 10px;
+    margin: 0;
+}
+
+div.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+}
